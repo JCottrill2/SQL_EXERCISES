@@ -2,8 +2,8 @@
 SELECT * FROM Products;
 
 -- find all products that cost $1400
-SELECT * FROM bestbuy.products
-WHERE products.price= 1400.00;
+SELECT * FROM products
+WHERE price= 1400.00;
 
 -- find all products that cost $11.99 or $13.99
 SELECT * FROM products
@@ -22,8 +22,8 @@ SELECT * FROM employees
 WHERE MiddleInitial IS NULL;
 
 -- find distinct product prices
-SELECT DISTINCT product price
-FROM bestbuy.products;
+SELECT DISTINCT price
+FROM products;
 
 -- find all employees whose first name starts with the letter ‘j’
 SELECT * FROM employees
